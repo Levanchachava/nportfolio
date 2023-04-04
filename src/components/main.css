@@ -1,0 +1,178 @@
+.main-cont {
+    margin-left: 280px;
+    margin-top: 80px;
+}
+
+.main-cont h1 {
+    font-size: 40px;
+    color: rgb(255, 225, 225);
+    letter-spacing: 5px;
+}
+
+.line {
+    width: 130px;
+    height: 5px;
+    background: linear-gradient(90deg, rgba(3,28,116,1) 0%, rgba(217,53,191,1) 50%, rgba(133,161,2,1) 100%);
+    margin-top: 30px;
+}
+
+.main-cont h4 {
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: antiquewhite;
+    letter-spacing: 4px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.projects-cont {
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projects-cont a {
+    text-decoration: none;
+}
+
+.proj-div {
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color: rgb(2, 2, 180);
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.projects-cont img {
+    width: 300px;
+    height: 200px;
+    border: 10px solid rgb(0, 2, 98);
+    border-radius: 10px;
+}
+
+.projects-cont h3 {
+    color: white;
+    margin-top: 10px;
+    letter-spacing: 2.5px;
+    font-size: 20px;
+}
+
+.tech-cont {
+    display: flex;
+}
+
+.tech-cont p {
+    margin: 0 10px;
+}
+
+
+.proj-div p {
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+    word-spacing: 10px;
+    font-weight: 500;
+    background-color: rgb(3, 49, 0);
+}
+
+.skill-cont {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill-front {
+    background-color: rgb(3, 0, 77);
+    width: 700px;
+    height: 200px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.skill-cont {
+    margin-top: 30px;
+}
+
+.skill-front h2 {
+    font-size: 40px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+
+.skill-front span {
+    padding: 10px 20px;
+    background-color: aqua;
+    font-weight: bold;
+    border-radius: 40px;
+    margin: 20px;
+}
+
+.skill-back {
+    margin-top: 20px;
+    background-color: rgb(3, 0, 77);
+    width: 700px;
+    height: 200px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.skill-back h2 {
+    font-size: 40px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.skill-back span {
+    padding: 10px 20px;
+    background-color: aqua;
+    font-weight: bold;
+    border-radius: 40px;
+    margin: 20px;
+}
+
+.aboutme h1 {
+    margin: 18px 0;
+}
+
+.aboutme p {
+    max-width: 600px;
+    color: rgb(220, 220, 220);
+    font-size: 18px;
+}
+
+.hr {
+    max-width: 65%;
+    margin-top: 20px;
+    color: black;
+}
+
+.contact {
+    display: flex;
+    margin-top: 30px;
+}
+
+.contact div {
+    margin-right: 100px;
+    margin-bottom: 40px;
+}
+
+.contact div span {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.contact div p {
+    font-size: 18px;
+    color: rgb(216, 216, 216);
+}
